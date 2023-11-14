@@ -1,0 +1,21 @@
+{
+  "name": "net18-node-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sonar": "node sonar-project.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.niveussolutions.com:prajwal.amin/net18-node-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "redis": "^3.1.2",
+    "sonarqube-scanner": "^3.0.1"
+  }
+}
